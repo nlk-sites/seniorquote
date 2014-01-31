@@ -538,7 +538,7 @@ function tracking_code_header() {
 
 </script>
 
-	<?
+	<?php
 
 }
 
