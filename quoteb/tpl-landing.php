@@ -2,10 +2,12 @@
 	/**
 		* Template Name: Landing Page
 	*/
-?>
 
-<?php get_template_part( 'header', 'landing' ); ?>
-<?php get_template_part( 'tpl', 'landing-head' ); ?>
+get_template_part( 'header', 'landing' );
+
+get_template_part( 'tpl', 'landing-head' ); 
+
+?>
 
 <div id="main" class="site-main">
 	
@@ -25,7 +27,7 @@
 					$video = get_post_meta($post->ID, 'video', true);
 					if($c_type != 'video')
 					if($video)
-					echo do_shortcode(sprintf('<div style="padding:0 0 20px;">[video src="%s" width="619" height="347"]</div>',$video));
+					echo do_shortcode(sprintf('<div style="padding:0 0 20px;">[video src="%s" width="619" height="347" autoplay="y"]</div>',$video));
 					
 					get_template_part( 'tpl', 'content' );
 					
