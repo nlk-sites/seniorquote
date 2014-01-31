@@ -1,0 +1,213 @@
+.container {
+	max-width: 960px;
+	width: 960px;
+}
+
+.container .container {
+	max-width: 100%;
+	width: 100%;
+}
+
+.efc-bg {
+	background-image: url(images/ffffff-376195.jpg);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+	width: 960px;
+	margin:0 auto;
+	min-height: 482px;
+	position: relative;
+}
+.efc-bdy {
+	background-image: url(images/top-box-bdy.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding: 0 0 3px;
+	}
+.efc-btm {
+	background-image: url(images/top-box-btm.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding: 0 0 7px;
+}
+
+.site-header .brand {
+	position: absolute;
+	top: 0;
+	left: 0;
+}	
+.site-header .pointer {
+	position: absolute;
+	right: 31.33%;
+	bottom: 0;
+}
+#landing-sidebar .widget-title {
+	background-image: url(images/lst.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	min-height: 108px;
+	padding: 52px 0 0;
+	text-align: center;
+	color: white;
+}
+#landing-sidebar .textwidget {
+	padding: 10px 20px 0;
+}
+
+#landing-sidebar .textwidget p {
+	margin-bottom: 8px;
+	color: #335F92;
+}
+#landing-sidebar input:not([type]), #landing-sidebar input[type="color"], #landing-sidebar input[type="email"], #landing-sidebar input[type="number"], #landing-sidebar input[type="password"], #landing-sidebar input[type="tel"], #landing-sidebar input[type="url"], #landing-sidebar input[type="text"], 
+#landing-sidebar input.text,
+#landing-sidebar textarea {
+	width: 100%;
+	
+}
+#landing-sidebar .wpcf7-validation-errors {
+	color: #fff;
+	margin:0 auto 10px;
+}
+#landing-sidebar input[type="submit"] {
+	background-image: url(images/btn-getafreequote.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: transparent;
+	height: 44px;
+	line-height: 44px; 
+	text-align: center;
+	border: 0 none;
+	width: 100%;
+	overflow: hidden;
+	text-indent: -999em;
+	margin: 10px 0 0;
+}
+#main {
+	padding: 20px 0 30px;
+}
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+	color: #315D91;
+	font-family: "Gotham Medium";
+	font-weight:500;
+}
+#main h1,
+#main h4 {
+	font-size: 32px;
+	line-height: 1;
+}
+#main h2 {
+	color: #D43414;
+}
+#main h2,
+#main h3 {
+	font-size: 16px;
+}
+#main p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #222222;
+}
+
+#main blockquote:before {
+	content: "";
+	width:68px;
+	height:56px;
+	background: url(images/q.png);
+	display: block;
+	float: left;
+}
+#main blockquote em:before {
+	content: "";
+	width:68px;
+	height:56px;
+	background: url(images/p.png);
+	display: inline-block;
+	vertical-align: top;
+}
+#main blockquote {
+	padding: 20px 0 ;
+	margin: 0 0 20px ;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+#main blockquote,
+#main blockquote p {
+	font-family: "Gotham Book Italic";
+	font-size: 20px;
+	line-height: 28px;
+	color: #666666;
+}
+#main blockquote p {
+	margin: 0 0 0 3em;
+}
+#main blockquote em {
+	font-family: "Gotham Medium";
+	color: #000;
+	font-size: 15px;
+	font-style: italic;
+}
+.entry-header {}
+.entry-header .entry-meta { display: none; }
+.entry-header:hover .entry-meta { display: block; }
+
+
+.widget-area {
+}
+#secondary .widget {
+	background: #C3D2EA;
+}
+#main .widget-area .widget-title {
+	line-height:1;
+	color: #386496;
+}
+#main .widget-area .widget_text {
+	padding: 20px;
+	margin: 0 0 15px;
+}
+#main .widget-area  blockquote.aligncenter,
+#main .widget-area img.aligncenter,
+#main .widget-area .wp-caption.aligncenter {
+	margin: 0;
+}
+
+#main .widget-area .c386395 {
+	background: #386395;
+	color: #fff;
+}
+#main .widget-area .c386395 .widget-title {
+	color: #fff;
+}
+#main .widget-area .c386395 .widget_text {
+	color: #fff;
+}
+
+#main .widget-area .c386395 h4,
+#main .widget-area .c386395 p {
+	color: #fff;
+}
+#main #landing-content  .widget_text {
+	padding: 0;
+	margin: 0;
+}
+#main .widget_text blockquote {
+	margin: 0;
+}
+
+#colophon {
+	background: #D53515;
+	color: #fff;
+	min-height: 100px;
+}
+#colophon a {
+	color: #fff;
+}
+.site-info {
+	padding: 10px 0;
+}	
+
+.hero-sidebar {
+	padding: 15px 0;
+		margin: 0 0 20px ;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	}
