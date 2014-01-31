@@ -285,7 +285,7 @@ function tracking_code_header() {
 	  ga('send', 'pageview');
 
 	</script>
-	<?
+	<?php
 }
 add_action('wp_head', 'tracking_code_header');
 
