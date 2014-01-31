@@ -296,6 +296,7 @@ function do_submit_the_form() {
 		$leadId = time();
 		$firstName = $_POST['contactInfo']['firstName'];
 		$lastName = $_POST['contactInfo']['lastName'];
+		$city = $_POST['contactInfo']['city'];
 		$state = $_POST['contactInfo']['state'];
 		$zipCode = $_POST['contactInfo']['zipCode'];
 		$dayPhone = $_POST['contactInfo']['dayPhone'];
@@ -312,6 +313,7 @@ function do_submit_the_form() {
 		$xmlstr .= "<leadInfo><leadId>" . $leadId . "</leadId></leadInfo>";
 		$xmlstr .= "<contactInfo><firstName>" . $firstName . "</firstName>";
 		$xmlstr .= "<lastName>" . $lastName . "</lastName>";
+		$xmlstr .= "<city>" . $city . "</city>";
 		$xmlstr .= "<state>" . $state . "</state>";
 		$xmlstr .= "<zipCode>" . $zipCode . "</zipCode>";
 		$xmlstr .= "<Phone>" . $dayPhone . "</Phone>";
