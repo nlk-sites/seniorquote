@@ -2,10 +2,11 @@
 	/**
 		* Template Name: Landing Page
 	*/
-?>
- 
-<?php get_template_part( 'header', 'landing' ); ?>
-<?php get_template_part( 'tpl', 'landing-head' ); ?>
+
+get_template_part( 'header', 'landing' );
+
+get_template_part( 'tpl', 'landing-head' ); ?>
+
 <div class="container row">
 	
 	<div class="row gutters">
