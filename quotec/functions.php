@@ -298,6 +298,11 @@ function do_submit_the_form() {
 }
 
 
+
+/*
+	*	Marchex Phone Number Functions
+*/
+
 function sq_phonenumber( $format = true, $includetxt = false ) {
 	$phone = '1.800.992.7724';
 	
@@ -306,12 +311,14 @@ function sq_phonenumber( $format = true, $includetxt = false ) {
 	}
 	
 	// check if ?s_cid=# is set in the URL, and switch accordingly
-	if ( isset( $_GET['s_cid'] ) ) {
-		$cid = $_GET['s_cid'];
-		$cid = absint($cid);
+	if ( isset( $_GET['utm_source'] ) ) {
+		$utms = $_GET['utm_source'];
 		
-		switch ( $cid ) {
-			case 1:
+		switch ( $utms ) {
+			case 'Adwords':
+				$phone = '1.800.808.4910';
+				break;
+			default:
 				$phone = '1.800.992.7724';
 				break;
 		}
