@@ -310,7 +310,7 @@ function sq_phonenumber( $format = true, $includetxt = false ) {
 		$phone = $_SESSION['sqphone'];
 	}
 	
-	// check if ?s_cid=# is set in the URL, and switch accordingly
+	// check if utm_source is set in the URL, and switch accordingly
 	if ( isset( $_GET['utm_source'] ) ) {
 		$utms = $_GET['utm_source'];
 		
