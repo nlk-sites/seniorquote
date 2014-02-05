@@ -120,7 +120,7 @@ input[type="submit"] { cursor: pointer; }
 
 .row input, .row select { display: inline-block; margin-right: 6px; }
 
-.row input.last { margin-right: 0; float: right; }
+.row input.last { margin-right: 0; /* float: right; */ }
 
 .row.thirds input, .row.thirds select { width: 86px !important; }
 
@@ -911,14 +911,5 @@ img.aligncenter,
 	margin-right: 10px;
 
 }
-
-
-
-
-
-
-
-
-
 
 
