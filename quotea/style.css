@@ -118,10 +118,10 @@ input.text.need { border-color: #f00; }
 
 input[type="submit"] { cursor: pointer; }
 
-fieldset { position: relative; }
-.row input, .row select { display: block; margin: inherit auto; }
-.row input.first { margin-left: 0; float: left; }
-.row input.last { margin-right: 0; float: right; }
+.row input, .row select { display: inline-block; margin-right: 6px; }
+
+.row input.last { margin-right: 0; /* float: right; */ }
+
 .row.thirds input, .row.thirds select { width: 86px !important; }
 
 .row.thirds select { color: #a7a7a7; }
@@ -235,10 +235,6 @@ img.size-large,
 
 
 /* footer */
-
-
-
-footer ul {}
 
 footer li { display: inline-block; padding: 20px; }
 
@@ -915,14 +911,5 @@ img.aligncenter,
 	margin-right: 10px;
 
 }
-
-
-
-
-
-
-
-
-
 
 
