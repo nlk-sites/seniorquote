@@ -316,6 +316,7 @@ function sq_phonenumber( $format = true, $includetxt = false ) {
 		
 		switch ( $utms ) {
 			case 'Adwords':
+			case 'adwords':
 				$phone = '1.800.808.4910';
 				break;
 			default:
