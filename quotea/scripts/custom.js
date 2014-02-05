@@ -3,6 +3,6 @@ jQuery(function($) {
 	    var results = new RegExp('[\\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
 	    return results[1] || 0;
 	}
-	var marchex = $.urlParam('s_cid');
-	$.cookie('marchexcid', marchex, { expires: 7, path: '/' });
+	var marchex = $.urlParam('utm_source');
+	$.cookie('marchex', marchex, { expires: 30, path: '/' });
 });
