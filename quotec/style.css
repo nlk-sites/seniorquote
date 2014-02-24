@@ -59,10 +59,11 @@ span.shipping_region_name, span.shipping_country_name { background: #fff; border
 input.text.need { border-color: #f00; }
 input[type="submit"] { cursor: pointer; }
 .row input, .row select { display: inline-block; margin-right: 6px; }
-.row input.last { margin-right: 0; /* float: right; */ }
+.row input.last, .row select.last { margin-right: 0; /* float: right; */ }
 .row.thirds input, .row.thirds select { width: 86px !important; }
 .row.thirds select { color: #a7a7a7; }
 .row.thirds select option { color: #666; }
+.row.half input, .row.half select { width: 135px !important }
 a { color: #0066cc; text-decoration: none }
 a:hover { color: #ff4b33; text-decoration: underline }
 

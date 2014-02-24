@@ -148,7 +148,7 @@
 }
 .entry-header {}
 .entry-header .entry-meta { display: none; }
-.entry-header:hover .entry-meta { display: block; }
+/*.entry-header:hover .entry-meta { display: block; }*/
 
 #secondary {
 }
