@@ -259,6 +259,13 @@ function do_submit_the_form() {
 		$dayPhone = $_POST['contactInfo']['dayPhone'];
 		$email = $_POST['contactInfo']['email'];
 
+		$contactable = 0;
+		if ( isset($_POST['contactInfo']['contactable']) ) {
+			if ( $_POST['contactInfo']['contactable'] == 'Yes' ) {
+				$contactable = 1;
+			}
+		}
+
 		$m = $_POST['birthDate']['m'];
 		$d = $_POST['birthDate']['d'];
 		$y = $_POST['birthDate']['y'];
@@ -267,7 +274,8 @@ function do_submit_the_form() {
 		$birthDate = date('Y-m-d',$t);
 
 		$xmlstr = '<?xml version="1.0"?><Parallel6Lead>';
-		$xmlstr .= "<leadInfo><leadId>" . $leadId . "</leadId></leadInfo>";
+		$xmlstr .= "<leadInfo><leadId>" . $leadId . "</leadId>";
+		$xmlstr .= "<contactable>" . $contactable . "</contactable></leadInfo>";
 		$xmlstr .= "<contactInfo><firstName>" . $firstName . "</firstName>";
 		$xmlstr .= "<lastName>" . $lastName . "</lastName>";
 		$xmlstr .= "<city>" . $city . "</city>";

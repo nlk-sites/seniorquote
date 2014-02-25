@@ -264,7 +264,7 @@ function do_submit_the_form() {
 			if ( $_POST['contactInfo']['contactable'] == 'Yes' ) {
 				$contactable = 1;
 			}
-		}		
+		}
 		
 		$m = $_POST['birthDate']['m'];
 		$d = $_POST['birthDate']['d'];
